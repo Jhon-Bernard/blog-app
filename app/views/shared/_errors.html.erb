@@ -1,0 +1,33 @@
+<% if @blog.errors.any? %>
+    <div class ="row">
+      <div class ="col-xs-8 col-xs-offset-2">
+        <div class="panel panel-danger">
+          <div class ="panel-heading">
+            <h2 class="panel-title">
+              <%= pluralize(@blog.errors.count, "error") %>
+              prohibited this blog from being saved:
+            </h2>
+            <div class="panel-body">
+              <ul>
+                <% @blog.errors.full_messages.each do |msg| %>
+                  <li><%= msg %></li>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<% end %>
+
+
+
+    <!--        <div id="error_explanation">-->
+    <!--          <h2><%#= pluralize(blog.errors.count, "error") %> prohibited this blog from being saved:</h2>-->
+
+    <!--          <ul>-->
+    <%# blog.errors.full_messages.each do |message| %>
+    <!--            <li><%#= message %></li>-->
+    <%# end %>
+    <!--          </ul>-->
+    <!--        </div>-->
