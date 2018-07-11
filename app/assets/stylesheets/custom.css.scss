@@ -1,2 +1,63 @@
+$navbar-default-bg: #0055e2;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+  float: left;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #6c018e;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: asset-url('island.jpg');
+  background-size: cover;
+  height: 800px;
+}
+
+.jumbotron h1{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.btn-xlarge{
+  color: #fff;
+}
+.navi a{
+  font-size: 17px;
+}
+
+footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+}
+
+fotter:hover{
+  color: #fff;
+}
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
+
