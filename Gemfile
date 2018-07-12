@@ -47,12 +47,7 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   # Use mysql as the database for Active Record
-<<<<<<< HEAD
-  gem 'mysql2'
-
-=======
   gem 'mysql2', '>= 0.4.4', '< 0.6.0'
->>>>>>> 0a088b81f6d77e471bbf71ba8befcf945941b614
 end
 
 group :test do
