@@ -208,8 +208,12 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   duktape
   jbuilder (~> 2.5)
+<<<<<<< HEAD
   jquery-rails
   mysql2
+=======
+  mysql2 (>= 0.4.4, < 0.6.0)
+>>>>>>> 0a088b81f6d77e471bbf71ba8befcf945941b614
   pg
   puma (~> 3.11)
   rails (~> 5.2.0)
